@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 int main() {
   
  int num = 100;
@@ -7,15 +6,15 @@ int main() {
  for (int i = 0; i < num; i++)
     {
         if (i%15 == 0)       
-            printf ("FizzBuzz\n");   
+            std::cout << "FizzBuzz\n";   
       
         else if ((i%3) == 0)   
-            printf("Fizz\n");                
+            std::cout << "Fizz\n";                
     
         else if ((i%5) == 0)                      
-            printf("Buzz\n");                
+            std::cout << "Buzz\n";                
      
         else        
-            printf("%d\n", i);                
+            std::cout << i <<"\n";                
     }
 }
