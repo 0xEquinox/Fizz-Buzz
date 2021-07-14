@@ -1,8 +1,8 @@
-fun main(args: Array<String>) {
-  fizz_buzz(100)
+fun Main(args: Array<String>) {
+  FizzBuzz(100)
 }
 
-fun fizz_buzz(num: Int){
+fun FizzBuzz(num: Int){
 
   if(num % 3 == 0 && num % 5 == 0){
     println("FizzBuzz")
@@ -15,7 +15,7 @@ fun fizz_buzz(num: Int){
   }
 
   if(num > 1){
-    fizz_buzz(num - 1)
+    FizzBuzz(num - 1)
   }
 
 }
