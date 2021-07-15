@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-  fizzBuzz(1000)
+  fizzBuzz(100)
 }
 
 func fizzBuzz(n int){
