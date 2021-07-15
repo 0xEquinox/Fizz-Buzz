@@ -1,5 +1,5 @@
 def Fizz_Buzz(x):
-  for i in range(num):
+  for i in range(x):
 
     if i % 5 == 0 and i % 3 == 0:
       print("FizzBuzz");
