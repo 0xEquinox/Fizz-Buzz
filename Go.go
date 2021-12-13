@@ -7,8 +7,8 @@ func main() {
 }
 
 func fizzBuzz(n int){
-i := 0
-for i <= n{
+  i := 0
+  for i <= n{
     if i % 3 == 0 && i % 5 == 0{
       fmt.Println("FizzBuzz")
     }else if i % 5 == 0{
