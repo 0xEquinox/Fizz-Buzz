@@ -13,8 +13,6 @@ def fizz_buzz(n : Int32)
     else
       puts i
     end
-    
-
     i += 1
   end
 end
